@@ -1,6 +1,6 @@
 # logisim-evolution-logic-gates-with-transistors
 
-Logic gates built with transistors on application Logisim-evolution
+Logic gates built with transistors on application [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution)
 
 ## License
 
