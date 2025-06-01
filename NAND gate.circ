@@ -58,11 +58,11 @@
     <a name="simulationFrequency" val="1.0"/>
     <comp lib="0" loc="(100,190)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="label" val="inputA"/>
+      <a name="label" val="input0"/>
     </comp>
     <comp lib="0" loc="(100,230)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="label" val="inputB"/>
+      <a name="label" val="input1"/>
     </comp>
     <comp lib="0" loc="(180,130)" name="Transistor">
       <a name="facing" val="south"/>
@@ -88,7 +88,7 @@
     <comp lib="0" loc="(290,150)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
-      <a name="label" val="outputY"/>
+      <a name="label" val="output0"/>
       <a name="output" val="true"/>
     </comp>
     <wire from="(100,190)" to="(200,190)"/>

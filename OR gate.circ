@@ -90,16 +90,16 @@
     <comp lib="0" loc="(340,150)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
-      <a name="label" val="outputY"/>
+      <a name="label" val="output0"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(90,110)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="label" val="inputB"/>
+      <a name="label" val="input1"/>
     </comp>
     <comp lib="0" loc="(90,70)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="label" val="inputA"/>
+      <a name="label" val="input0"/>
     </comp>
     <wire from="(110,190)" to="(120,190)"/>
     <wire from="(110,70)" to="(110,190)"/>
