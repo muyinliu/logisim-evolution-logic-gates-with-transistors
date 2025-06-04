@@ -105,8 +105,8 @@
     </comp>
     <comp lib="0" loc="(710,300)" name="Ground"/>
     <comp lib="0" loc="(710,60)" name="Power"/>
-    <comp lib="0" loc="(830,130)" name="Transistor"/>
-    <comp lib="0" loc="(830,190)" name="Transistor">
+    <comp lib="0" loc="(830,140)" name="Transistor"/>
+    <comp lib="0" loc="(830,180)" name="Transistor">
       <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
     </comp>
@@ -157,12 +157,12 @@
     <wire from="(750,100)" to="(810,100)"/>
     <wire from="(770,160)" to="(770,250)"/>
     <wire from="(770,160)" to="(790,160)"/>
-    <wire from="(790,130)" to="(790,160)"/>
-    <wire from="(790,160)" to="(790,190)"/>
-    <wire from="(810,100)" to="(810,110)"/>
-    <wire from="(810,210)" to="(810,220)"/>
-    <wire from="(830,130)" to="(830,160)"/>
-    <wire from="(830,160)" to="(830,190)"/>
+    <wire from="(790,140)" to="(790,160)"/>
+    <wire from="(790,160)" to="(790,180)"/>
+    <wire from="(810,100)" to="(810,120)"/>
+    <wire from="(810,200)" to="(810,220)"/>
+    <wire from="(830,140)" to="(830,160)"/>
+    <wire from="(830,160)" to="(830,180)"/>
     <wire from="(830,160)" to="(890,160)"/>
   </circuit>
 </project>
