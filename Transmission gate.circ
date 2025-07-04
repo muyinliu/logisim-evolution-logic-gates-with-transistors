@@ -52,7 +52,7 @@
     <a name="circuit" val="main"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(170,160)" name="Pin">
+    <comp lib="0" loc="(170,130)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="control_C0"/>
     </comp>
@@ -60,11 +60,11 @@
       <a name="appearance" val="classic"/>
       <a name="label" val="input0_C0"/>
     </comp>
-    <comp lib="0" loc="(230,150)" name="Transistor">
+    <comp lib="0" loc="(230,120)" name="Transistor">
       <a name="facing" val="south"/>
       <a name="selloc" val="bl"/>
     </comp>
-    <comp lib="0" loc="(230,170)" name="Transistor">
+    <comp lib="0" loc="(230,140)" name="Transistor">
       <a name="facing" val="north"/>
       <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
@@ -86,52 +86,48 @@
       <a name="label" val="output0_C0"/>
       <a name="output" val="true"/>
     </comp>
-    <comp lib="0" loc="(650,160)" name="Pin">
+    <comp lib="0" loc="(650,130)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="control_C1"/>
     </comp>
-    <comp lib="0" loc="(650,250)" name="Pin">
+    <comp lib="0" loc="(650,190)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="label" val="input0_C1"/>
     </comp>
-    <comp lib="0" loc="(710,150)" name="Transistor">
+    <comp lib="0" loc="(710,120)" name="Transistor">
       <a name="facing" val="south"/>
       <a name="selloc" val="bl"/>
     </comp>
-    <comp lib="0" loc="(710,170)" name="Transistor">
+    <comp lib="0" loc="(710,140)" name="Transistor">
       <a name="facing" val="north"/>
       <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
     </comp>
     <comp lib="0" loc="(710,300)" name="Ground"/>
     <comp lib="0" loc="(710,60)" name="Power"/>
-    <comp lib="0" loc="(830,140)" name="Transistor"/>
-    <comp lib="0" loc="(830,180)" name="Transistor">
+    <comp lib="0" loc="(830,170)" name="Transistor"/>
+    <comp lib="0" loc="(830,210)" name="Transistor">
       <a name="selloc" val="bl"/>
       <a name="type" val="n"/>
     </comp>
-    <comp lib="0" loc="(890,160)" name="Pin">
+    <comp lib="0" loc="(890,190)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="output0_C1"/>
       <a name="output" val="true"/>
     </comp>
-    <wire from="(170,160)" to="(190,160)"/>
+    <wire from="(170,130)" to="(190,130)"/>
     <wire from="(170,250)" to="(340,250)"/>
-    <wire from="(190,160)" to="(190,220)"/>
-    <wire from="(190,160)" to="(210,160)"/>
-    <wire from="(190,220)" to="(270,220)"/>
+    <wire from="(190,130)" to="(190,190)"/>
+    <wire from="(190,130)" to="(210,130)"/>
+    <wire from="(190,190)" to="(280,190)"/>
+    <wire from="(210,100)" to="(210,130)"/>
     <wire from="(210,130)" to="(210,160)"/>
-    <wire from="(210,160)" to="(210,190)"/>
-    <wire from="(230,150)" to="(230,160)"/>
-    <wire from="(230,160)" to="(230,170)"/>
-    <wire from="(230,160)" to="(270,160)"/>
-    <wire from="(230,210)" to="(230,300)"/>
-    <wire from="(230,60)" to="(230,110)"/>
-    <wire from="(270,130)" to="(270,160)"/>
-    <wire from="(270,130)" to="(280,130)"/>
-    <wire from="(270,190)" to="(270,220)"/>
-    <wire from="(270,190)" to="(280,190)"/>
+    <wire from="(230,120)" to="(230,130)"/>
+    <wire from="(230,130)" to="(230,140)"/>
+    <wire from="(230,130)" to="(280,130)"/>
+    <wire from="(230,180)" to="(230,300)"/>
+    <wire from="(230,60)" to="(230,80)"/>
     <wire from="(300,100)" to="(300,110)"/>
     <wire from="(300,100)" to="(340,100)"/>
     <wire from="(300,150)" to="(300,160)"/>
@@ -141,28 +137,24 @@
     <wire from="(300,220)" to="(340,220)"/>
     <wire from="(340,100)" to="(340,220)"/>
     <wire from="(340,220)" to="(340,250)"/>
-    <wire from="(650,160)" to="(670,160)"/>
-    <wire from="(650,250)" to="(770,250)"/>
-    <wire from="(670,160)" to="(670,220)"/>
-    <wire from="(670,160)" to="(690,160)"/>
-    <wire from="(670,220)" to="(810,220)"/>
+    <wire from="(650,130)" to="(670,130)"/>
+    <wire from="(650,190)" to="(790,190)"/>
+    <wire from="(670,130)" to="(670,250)"/>
+    <wire from="(670,130)" to="(690,130)"/>
+    <wire from="(670,250)" to="(810,250)"/>
+    <wire from="(690,100)" to="(690,130)"/>
     <wire from="(690,130)" to="(690,160)"/>
-    <wire from="(690,160)" to="(690,190)"/>
-    <wire from="(710,150)" to="(710,160)"/>
-    <wire from="(710,160)" to="(710,170)"/>
-    <wire from="(710,160)" to="(750,160)"/>
-    <wire from="(710,210)" to="(710,300)"/>
-    <wire from="(710,60)" to="(710,110)"/>
-    <wire from="(750,100)" to="(750,160)"/>
-    <wire from="(750,100)" to="(810,100)"/>
-    <wire from="(770,160)" to="(770,250)"/>
-    <wire from="(770,160)" to="(790,160)"/>
-    <wire from="(790,140)" to="(790,160)"/>
-    <wire from="(790,160)" to="(790,180)"/>
-    <wire from="(810,100)" to="(810,120)"/>
-    <wire from="(810,200)" to="(810,220)"/>
-    <wire from="(830,140)" to="(830,160)"/>
-    <wire from="(830,160)" to="(830,180)"/>
-    <wire from="(830,160)" to="(890,160)"/>
+    <wire from="(710,120)" to="(710,130)"/>
+    <wire from="(710,130)" to="(710,140)"/>
+    <wire from="(710,130)" to="(810,130)"/>
+    <wire from="(710,180)" to="(710,300)"/>
+    <wire from="(710,60)" to="(710,80)"/>
+    <wire from="(790,170)" to="(790,190)"/>
+    <wire from="(790,190)" to="(790,210)"/>
+    <wire from="(810,130)" to="(810,150)"/>
+    <wire from="(810,230)" to="(810,250)"/>
+    <wire from="(830,170)" to="(830,190)"/>
+    <wire from="(830,190)" to="(830,210)"/>
+    <wire from="(830,190)" to="(890,190)"/>
   </circuit>
 </project>
